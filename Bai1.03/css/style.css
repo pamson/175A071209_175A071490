@@ -1,0 +1,21 @@
+body
+{
+    background-color: #A06D21;
+    margin: 0px auto;
+    background-image:url(..//images/tải\ xuống.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 40%;
+}
+div h1
+{
+    text-align: center;
+    color: #FFCC00;
+}
+div p 
+{
+    color: white;
+    font-size: 20px;
+    margin: 2%;
+}

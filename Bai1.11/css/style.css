@@ -1,0 +1,25 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: orangered;
+}
+
+th {
+    text-align: left;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+table {
+    margin: 0px auto;
+}

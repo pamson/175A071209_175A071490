@@ -1,0 +1,13 @@
+header
+{
+    border: 5px solid orange;
+    text-align: center;
+    text-transform: uppercase;
+    color: orange;
+}
+.text
+{
+    text-align: right;
+    background-color: orange;
+    color: white;
+}

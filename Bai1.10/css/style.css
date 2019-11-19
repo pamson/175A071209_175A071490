@@ -1,0 +1,41 @@
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 2px solid #FF0000;
+}
+
+.left-style>li {
+    list-style-type: square;
+}
+
+.left-style>li span {
+    font-size: 18px;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.left-style>li ul {
+    list-style-type: disc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.left-style>li ol {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.left-style>li ol li {
+    padding-bottom: 15px;
+}
+
+ul,
+ol {
+    padding-inline-start: 23px;
+    margin: 0;
+}
+
+#error {
+    vertical-align: top;
+}

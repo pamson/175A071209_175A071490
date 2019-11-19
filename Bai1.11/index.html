@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Đăng nhập</h1>
+    </header>
+    <tbody>
+        <form>
+            <table>
+                <tr>
+                    <th>Mã người dùng: </th>
+                    <td><input type="text" name="username" id="user"></td>
+                </tr>
+                <tr>
+                    <th>Mật khẩu: </th>
+                    <td><input type="password" name="password" id="pwd"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" value="Đồng ý" onclick="getuser()"></td>
+
+                </tr>
+                <tr>
+                    <td colspan="2" id="result" style="color: aliceblue;"></td>
+                </tr>
+            </table>
+        </form>
+    </tbody>
+    <script>
+        function getuser() {
+            let username = document.getElementById('user').value;
+            document.getElementById('result').textContent = username;
+        }
+    </script>
+</body>
+
+
+</html>

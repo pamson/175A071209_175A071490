@@ -1,0 +1,43 @@
+body {
+    background-color: peachpuff;
+    margin: 0px auto;
+}
+
+header h1 {
+    text-align: center;
+    color: orange;
+}
+
+.body {
+    display: flex;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.table table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th {
+    background-color: orangered;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+.table {
+    padding-left: 100px;
+}
+
+.img img {
+    height: 300px;
+}

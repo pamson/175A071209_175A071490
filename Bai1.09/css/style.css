@@ -1,0 +1,29 @@
+header h1 {
+    color: rgb(151, 15, 15);
+    text-align: center;
+}
+
+.body {
+    margin-left: 510px;
+}
+
+table {
+    border-collapse: collapse;
+    height: 400px;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: rgb(151, 15, 15);
+    color: white;
+}
+
+td {
+    text-align: center;
+}

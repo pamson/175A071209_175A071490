@@ -1,0 +1,40 @@
+div h1
+{
+    text-align: center;
+    color: #006600;
+}
+div h2
+{
+    text-decoration: underline;
+    color: #0000FF;
+}
+div h3
+{
+    text-align: center;
+    background-color: #FECFFD;
+    color: #FF3399;  
+}
+.body
+{
+    background-color: #FFFFCC;
+}
+.Kho1
+{
+    text-align: center;
+    color: #0000FF;
+}
+hr
+{
+    text-align: center;
+    width: 500px;
+}
+.kho2
+{
+    text-align: center;
+    color: brown;
+}
+.kho3
+{
+    text-align: center;
+    color:green;
+}

@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: orangered;
+}
+
+.body {
+    display: flex;
+}
+
+.img img {
+    width: 300px;
+    height: 300px;
+    margin-left: 2%;
+}
+
+.text {
+    padding: 20px;
+}
+
+.gioithieu ul {
+    list-style-type: circle;
+}
+
+.lienhe ul {
+    list-style-type: square;
+}
+
+font {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    color: blue;
+    text-transform: capitalize;
+    background-color: burlywood;
+}
